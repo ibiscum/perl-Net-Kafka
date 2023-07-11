@@ -21,6 +21,7 @@ pod2htm*.tmp
 TAGS
 *.tar.gz
 *.xsc
+/.idea
 
 ### SublimeText template
 # Cache files for Sublime Text
