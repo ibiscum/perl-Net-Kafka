@@ -10,7 +10,9 @@ sub is_ok {
 }
 
 sub bootstrap_servers {
-    return $ENV{KAFKA_BOOTSTRAP_SERVERS};
+    my $items = $ENV{KAFKA_BOOTSTRAP_SERVERS};
+    print $items . "\n";
+    return $items;
 }
 
 sub topic {
