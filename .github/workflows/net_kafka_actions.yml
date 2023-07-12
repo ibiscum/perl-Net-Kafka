@@ -53,4 +53,4 @@ jobs:
       - run: perl Makefile.PL
       - run: make
       - run: make install
-      - run: sudo prove -lv t
+      - run: prove -lv t
