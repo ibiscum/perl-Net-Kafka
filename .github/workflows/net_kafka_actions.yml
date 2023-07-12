@@ -31,5 +31,4 @@ jobs:
       - run: cpanm --local-lib=~/perl5 local::lib && eval $(perl -I ~/perl5/lib/perl5/ -Mlocal::lib)
       - run: cpanm ExtUtils::PkgConfig
       - run: perl Makefile.PL
-#     - run: cpanm -l --installdeps .
       - run: prove -lv t
