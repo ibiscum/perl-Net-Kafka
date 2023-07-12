@@ -21,6 +21,8 @@ TAGS
 *.tar.gz
 *.xsc
 /.idea
+/kafka
+/vendor
 
 ### SublimeText template
 # Cache files for Sublime Text
