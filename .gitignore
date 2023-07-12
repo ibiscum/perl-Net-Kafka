@@ -12,7 +12,6 @@ Net-Kafka-*
 .lwpcookies
 Makefile
 Makefile.old
-MYMETA.*
 nytprof*
 *.o
 pm_to_blib*
