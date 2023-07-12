@@ -35,4 +35,5 @@ jobs:
       - run: cpanm AnyEvent::XSPromises
       - run: perl Makefile.PL
       - run: make
+      - run: make install
       - run: prove -lv t
