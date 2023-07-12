@@ -2,10 +2,10 @@ name: net_kafka_actions
 
 on:
   push:
-    branches: [ 'main' ]
+    branches: [ 'master' ]
     tags-ignore: [ '*' ]
   pull_request:
-    branches: [ 'main' ]
+    branches: [ 'master' ]
     tags-ignore: [ '*' ]
 
 jobs:
