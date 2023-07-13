@@ -26,8 +26,7 @@ sub topic_partitions {
 sub new {
     my ($class, %args) = @_;
     return Net::Kafka::Producer->new(
-        'bootstrap.servers' => $args{'bootstrap.servers'} // bootstrap_servers(),
-        %args
+        'bootstrap.servers' => $args{'bootstrap.servers'} // bootstrap_servers(), %args
     );
 }
 
