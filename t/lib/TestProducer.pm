@@ -5,14 +5,16 @@ use warnings;
 
 use Net::Kafka::Producer;
 
+#sub is_ok {
+#    return bootstrap_servers() && topic() && topic_partitions();
+#}
+
 sub is_ok {
-    return bootstrap_servers() && topic() && topic_partitions();
+    return bootstrap_servers() && topic();
 }
 
 sub bootstrap_servers {
-    my $items = $ENV{KAFKA_BOOTSTRAP_SERVERS};
-    print $items . "\n";
-    return $items;
+    return $ENV{KAFKA_BOOTSTRAP_SERVERS};
 }
 
 sub topic {
