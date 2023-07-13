@@ -35,7 +35,7 @@ jobs:
       KAFKA_BOOTSTRAP_SERVERS: localhost:9092
       KAFKA_AUTO_CREATE_TOPICS_ENABLE: true
       KAFKA_TEST_TOPIC: mytopic
-      KAFKA_TEST_TOPIC_PARTITIONS: 0
+      KAFKA_TEST_TOPIC_PARTITIONS: P0
 
     steps:
       - run: sudo apt-get install -y librdkafka-dev
